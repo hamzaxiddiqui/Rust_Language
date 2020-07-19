@@ -1,0 +1,8 @@
+In this chapter of the rust programming book the summary is  the use and structure of cargo file 
+and also the commands of cargo like:
+1.cargo build -> this command compile and create the binary file by creating the target/debug directory
+2.cargo run -> this command first check the changes in the source code if there got some change
+then it will compile the src code and then display the output on the terminal
+3.cargo check -> this command check our code and make sure it's compile but not produce binary/exe
+4.cargo build --release -> this command create the exe file with optimization when our project 
+is ready to release
